@@ -2,13 +2,16 @@
 
 main() {
     
-    long nc;
-    nc = 0;
+    int c,nl;
+    
 
-    while(getchar()!= EOF)
+    while(c = getchar()!= EOF)
     {
-        nc++;
+        if (c == '/n')
+        {
+            ++nl;
+        }
     }
 
-    printf("%d\n", nc);
+    printf("%d\n", nl);
 }
