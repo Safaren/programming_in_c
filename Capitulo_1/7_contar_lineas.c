@@ -7,7 +7,7 @@ main() {
 
     while(c = getchar()!= EOF)
     {
-        if (c == '/n')
+        if (c == '\n')
         {
             ++nl;
         }
